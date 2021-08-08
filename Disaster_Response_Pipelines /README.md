@@ -6,6 +6,7 @@ The project aims to categorize the messages received during disasters and classi
 
 Data consists of real-word messages as raw texts sent during disasters. The data flows through an ETL pipeline that loads, cleans and dumps the data as a table in the given database. After the ETL pipeline, the data is trained using an ML pipeline. I chose Random Forest Classifier as my choice algorithm.
 
+
 ### File Structure:
 
 	- app
@@ -26,7 +27,9 @@ Data consists of real-word messages as raw texts sent during disasters. The data
 
 	- README.md
 
+
 ### Instructions:
+
 1. Run the following commands in the project's root directory to set up your database and model.
 
     - To run ETL pipeline that cleans data and stores in database
