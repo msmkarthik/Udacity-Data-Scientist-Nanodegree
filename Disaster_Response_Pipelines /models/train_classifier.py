@@ -78,7 +78,7 @@ def build_model():
 #         'clf__estimator__n_estimators': [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000],
         'clf__estimator__min_samples_split': [2, 3, 4],
 #         'clf__estimator__min_samples_leaf'   : [1, 2, 4],
-        'clf__estimator__max_features': ['auto', 'sqrt'],
+        # 'clf__estimator__max_features': ['auto', 'sqrt'],
 #         'clf__estimator__max_depth': [10, 20, 30, 40, 50, 60, 70, 80, 90, 100, None],
 
     }
