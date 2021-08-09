@@ -29,15 +29,15 @@ Data consists of real-word messages as raw texts sent during disasters. The data
 
 
 ### Installation:
-sys
-nltk
-numpy
-pandas
-sqlalchemy
-sklearn
-joblib
+	- sys
+	- nltk
+	- numpy
+	- pandas
+	- sqlalchemy
+	- sklearn
+	- joblib
 
-
+	
 ### Instructions:
 
 1. Run the following commands in the project's root directory to set up your database and model.
