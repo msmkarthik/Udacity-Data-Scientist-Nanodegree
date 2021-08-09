@@ -43,6 +43,10 @@ def clean_data(df):
     df = df.drop('categories', axis =1 )
     df = pd.concat([df, categories], axis = 1) 
     df = df.drop_duplicates()
+    for cat in categories:
+        if  len(set(df[cat].unique()) - {0,1}) > 0:
+            indexes = df.loc[df[cat] == 2].index
+            df.loc[indexes,'related']  = 1 
     return df
 
 

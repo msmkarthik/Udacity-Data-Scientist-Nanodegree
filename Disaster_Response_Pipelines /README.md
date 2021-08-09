@@ -28,6 +28,16 @@ Data consists of real-word messages as raw texts sent during disasters. The data
 	- README.md
 
 
+### Installation:
+sys
+nltk
+numpy
+pandas
+sqlalchemy
+sklearn
+joblib
+
+
 ### Instructions:
 
 1. Run the following commands in the project's root directory to set up your database and model.
@@ -59,3 +69,8 @@ Example below-
 Message - "We need drinking water in Aynavaram"
 
 ![example_pic](pics/message_classification.png)
+
+
+### Acknowledgments:
+I thank Udacity and Figure Eight for the dataset that was used for this project.
+A special mention to scikit-learn for their wonderful documentation that helped me fine tune the hyperparameters.
