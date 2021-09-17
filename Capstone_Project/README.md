@@ -26,6 +26,7 @@ The schema is as shown in the image below.
 The column page has a particular value called ‘Cancellation Confirmation’. This particular condition can be used to define churning.
 
 The following features were selected.
+
 **Categorical Features**
 * Gender
 * User level
