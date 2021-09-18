@@ -62,10 +62,10 @@ Their performances were recorded by measuring accuracy and F1 score. The observa
 
 Since the Random Forest Classifier provides the best results among the three models, we tune the hyperparameters for it.
 The final performance measures for the tuned Random Forest Classifier is as follows.
-* **Train Accuracy-**  1.0
-* **Train F1 Score-**  1.0
-* **Test Accuracy-**  0.71
-* **Test F1 Score-**  0.655
+* **Train Accuracy-**  0.912
+* **Train F1 Score-**  0.902
+* **Test Accuracy-**  0.709
+* **Test F1 Score-**  0.63
 
 
 ## File Structure:
