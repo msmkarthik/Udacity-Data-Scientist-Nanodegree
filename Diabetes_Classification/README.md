@@ -46,5 +46,7 @@ The main take aways of the project are published in Medium here - https://medium
 
 ## Acknowledgments:
 I thank Udacity for their stupendous lectures that motivated me undertake this project.
+
 I thank Kaggle and UCI, for making the dataset available for public.
-I thank the sklearn, seabor and pandas communities for their wonderful documentation.
+
+I thank sklearn, seabor and pandas communities for their wonderful documentation.
